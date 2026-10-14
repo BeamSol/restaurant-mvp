@@ -17,6 +17,30 @@ const nextConfig: NextConfig = {
     dangerouslyAllowLocalIP: process.env.NODE_ENV !== "production" || supabaseUrl?.hostname === "127.0.0.1",
   },
   trailingSlash: true,
+  // Security headers + service-worker headers (PWA)
+  async headers() {
+    return [
+      {
+        source: "/(.*)",
+        headers: [
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "X-Frame-Options", value: "DENY" },
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
+        ],
+      },
+      {
+        source: "/sw.js",
+        headers: [
+          { key: "Content-Type", value: "application/javascript; charset=utf-8" },
+          { key: "Cache-Control", value: "no-cache, no-store, must-revalidate" },
+          { key: "Content-Security-Policy", value: "default-src 'self'; script-src 'self'" },
+          { key: "Service-Worker-Allowed", value: "/" },
+        ],
+      },
+      { source: "/icons/(.*)", headers: [{ key: "Cache-Control", value: "public, max-age=604800" }] },
+    ];
+  },
   experimental: {
     // Photo uploads from the admin: 5 MB file + form overhead.
     serverActions: { bodySizeLimit: "6mb" },

@@ -46,6 +46,9 @@ Your website has a private admin area where you and your staff can change the me
 ### 3d. Dark mode & sidebar
 - The moon/sun button switches light and dark mode (website and admin). On a computer, **Collapse** at the bottom of the sidebar makes it a slim icon bar.
 
+### 3e. The website as an app
+Guests (and you) can install the website like an app: on Android tap **Install app** when it's offered, on iPhone tap **Share → Add to Home Screen**. The menu then opens from the home screen, even with a weak or no connection. Tip: install it on the restaurant's phone too, for quick access to **/admin**.
+
 ### 4. Menu
 - **Menu** → tap a section (e.g. *Pizza Corner*).
 - **Edit a dish:** tap its name → change the text, photo, labels (Fasting · የጾም, Vegetarian, Spicy, Popular, New) → **Save dish**.
@@ -121,6 +124,9 @@ We built this website from your old website (2018–2023) and a delivery app. An
 
 ### 3መ. ጨለማ ገጽታና የጎን ማውጫ
 - የጨረቃ/የፀሐይ ቁልፍ ብሩህና ጨለማ ገጽታ ይቀይራል። በኮምፒውተር ላይ በጎን ማውጫው ግርጌ **Collapse** ሲጫኑ ማውጫው ይጠብባል።
+
+### 3ሠ. ድረ-ገጹ እንደ መተግበሪያ
+እንግዶች (እና እርስዎ) ድረ-ገጹን እንደ መተግበሪያ መጫን ይችላሉ፦ በአንድሮይድ **Install app** ሲቀርብ ይጫኑ፤ በአይፎን **Share → Add to Home Screen**። ከዚያ ምግብ ዝርዝሩ ከስልኩ መነሻ ገጽ ይከፈታል፤ ኢንተርኔት ደካማ ወይም ባይኖርም።
 
 ### 4. ምግብ ዝርዝር (Menu)
 - **Menu** → ክፍል ይምረጡ (ለምሳሌ *Pizza Corner*)።

@@ -4,6 +4,7 @@ A fast, bilingual (English / አማርኛ) restaurant website with a simple admi
 
 - **Public site:** home (cinematic hero, highlights, signature dishes, live music, **table booking form**, branches with maps & live open/closed status, catering with **enquiry form**, Mama's Inn, story, gallery, reviews) + searchable `/menu` (sections, fasting/vegetarian/spicy/popular filters, branch selector, sold-out labels).
 - **Order tray:** guests add dishes from the home page or menu, choose pickup / delivery / dine-in and a branch, then send the whole order as **one WhatsApp (or Telegram) message**. No payments or accounts needed.
+- **Installable app (PWA):** "Add to home screen" on Android and iPhone, app icon, home-screen shortcuts (Menu, Book). A service worker (`public/sw.js`) keeps visited pages and photos on the phone, so the menu opens **offline or on a weak connection**; anything not saved shows an offline page with the phone numbers. Admin, forms and API calls are never cached.
 - **Light / dark mode** (follows the phone by default, toggle in the header, no flash on load). Dark colors are derived from the logo palette and contrast-checked like the light ones.
 - **Admin (`/admin`):** collapsible sidebar + dark mode, dashboard with stats and quick actions (sold out, announcement, today's hours), **Bookings & enquiries inbox** (call / WhatsApp the guest, confirm, notes), **printable menu QR codes** per branch, menu manager (drag reorder, one-tap availability, WebP photo upload, bulk % price change), branches, hours & Ethiopian holiday closures, events, gallery, reviews, settings (logo upload → palette extraction → contrast-checked colors), users (owner invites, OWNER/STAFF roles), "Needs review" list, activity log.
 - **Stack:** Next.js 16 (App Router, server mode) · TypeScript · Tailwind CSS 4 · Supabase (Postgres + Auth + Storage) · sharp.
@@ -129,7 +130,14 @@ After deploy: submit `https://domain/sitemap.xml` in Google Search Console, test
 6. **Text:** UI strings are in `src/i18n/en.json` / `am.json` (shared by all restaurants; change only if needed).
 7. `npm run db:seed`, `npm run create-owner …`, deploy (§5).
 
-## 7. Image guidelines
+## 7. App (PWA) notes
+
+- Icons are generated from the logo: `node scripts/make-icons.mjs` → `public/icons/` (run again after changing the logo).
+- The manifest (`src/app/manifest.ts`) takes name and colors from the database.
+- After changing caching rules in `public/sw.js`, bump `VERSION` at the top so phones drop old caches.
+- The service worker only runs on the production build (`npm run build && npm start`) or a deployed site with HTTPS.
+
+## 8. Image guidelines
 
 | Use | Size (auto-cropped on upload) | Target |
 |---|---|---|
@@ -141,5 +149,5 @@ After deploy: submit `https://domain/sitemap.xml` in Google Search Console, test
 
 Upload anything from a phone (JPG/PNG/WebP ≤ 5 MB); the server converts to WebP, crops with smart focus, creates a blur placeholder and never enlarges small photos. Daylight, 45° or top-down food shots work best.
 
-## 8. Quality checks done
+## 9. Quality checks done
 See the final report in the handover message: 360/768/1280 px, EN + AM, OWNER + STAFF, live-edit timing, Lighthouse, contrast.

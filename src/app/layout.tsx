@@ -16,7 +16,15 @@ export async function generateMetadata(): Promise<Metadata> {
     title: { default: settings.seo.title || settings.name, template: `%s | ${settings.name}` },
     description: settings.seo.description,
     keywords: settings.seo.keywords,
-    icons: settings.logo_url ? { icon: settings.logo_url, apple: settings.logo_url } : undefined,
+    icons: {
+      icon: [
+        { url: "/icons/favicon-32.png", sizes: "32x32", type: "image/png" },
+        { url: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
+      ],
+      apple: [{ url: "/icons/apple-touch-icon.png", sizes: "180x180" }],
+    },
+    // Installed on an iPhone home screen: full-screen app with the restaurant name
+    appleWebApp: { capable: true, title: settings.name, statusBarStyle: "default" },
     openGraph: {
       type: "website",
       siteName: settings.name,

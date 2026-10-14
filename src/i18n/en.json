@@ -229,5 +229,19 @@
   "title": "Page not found",
   "text": "The page you're looking for doesn't exist. Maybe you were looking for the menu?",
   "home": "Go home"
+ },
+ "pwa": {
+  "install": "Install app",
+  "installTitle": "Get the Mama's Kitchen app",
+  "installText": "Menu, booking and calling in one tap, even on a weak connection.",
+  "iosHint": "On iPhone: tap Share, then “Add to Home Screen”.",
+  "later": "Not now",
+  "installed": "App installed"
+ },
+ "offline": {
+  "title": "You're offline",
+  "text": "No internet connection right now. Pages you visited before still work; you can also call us directly.",
+  "retry": "Try again",
+  "menu": "Open saved menu"
  }
 }

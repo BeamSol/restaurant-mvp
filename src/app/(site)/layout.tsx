@@ -7,6 +7,7 @@ import JsonLd from "@/components/site/JsonLd";
 import RevealObserver from "@/components/site/RevealObserver";
 import { OrderProvider } from "@/components/site/order/OrderProvider";
 import OrderTray from "@/components/site/order/OrderTray";
+import PwaProvider from "@/components/pwa/PwaProvider";
 
 /** Public website shell: header (+announcement), footer, mobile bar, order tray, JSON-LD. */
 export default async function SiteLayout({ children }: { children: React.ReactNode }) {
@@ -27,6 +28,7 @@ export default async function SiteLayout({ children }: { children: React.ReactNo
         <MobileBar settings={settings} />
         {orders && <OrderTray settings={settings} branches={data.branches} />}
         <RevealObserver />
+        <PwaProvider logo={settings.logo_url} name={settings.name} />
       </OrderProvider>
     </I18nProvider>
   );
