@@ -5,11 +5,10 @@ import { useI18n } from "@/i18n/I18nProvider";
 import { phoneHref } from "@/lib/links";
 import type { Branch, Closure, Settings } from "@/lib/types";
 import Img from "./Img";
-import { AnyOpenBadge } from "./OpenBadge";
 import { ArrowRightIcon, MapPinIcon, MusicIcon, PhoneIcon } from "../Icons";
 
 /** Full-bleed photo hero with a cinematic gradient, big headline and the key actions. */
-export default function Hero({ settings, branches, closures }: { settings: Settings; branches: Branch[]; closures: Closure[] }) {
+export default function Hero({ settings, branches }: { settings: Settings; branches: Branch[]; closures?: Closure[] }) {
   const { t, pick, lang } = useI18n();
   const phone = settings.contact.phones?.[0];
   const book = settings.features.booking !== false;
@@ -32,8 +31,7 @@ export default function Hero({ settings, branches, closures }: { settings: Setti
 
       <div className="container-site pb-24 lg:pb-32">
         <div className="max-w-3xl animate-fade-up">
-          <AnyOpenBadge branches={branches} closures={closures} timeZone={settings.timezone} />
-          <h1 className="display mt-5 [text-shadow:0_2px_30px_rgba(0,0,0,.35)]">{pick(settings.name, settings.name_am)}</h1>
+          <h1 className="display [text-shadow:0_2px_30px_rgba(0,0,0,.35)]">{pick(settings.name, settings.name_am)}</h1>
           <p className={`mt-4 max-w-xl text-white/88 ${lang === "am" ? "text-[17px]" : "text-[17px] lg:text-[20px]"}`}>{pick(settings.tagline, settings.tagline_am)}</p>
           <div className="mt-7 flex flex-wrap gap-3">
             <Link href="/menu/" className="btn btn-light !h-12 px-6 !text-[15px]">
