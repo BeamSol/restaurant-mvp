@@ -16,7 +16,8 @@
     "create-owner": "node --experimental-strip-types --no-warnings scripts/create-owner.mts",
     "palette": "node --experimental-strip-types --no-warnings scripts/extract-palette.mts",
     "images": "node scripts/process-images.mjs",
-    "images:manifest": "node scripts/write-image-manifest.mjs"
+    "images:manifest": "node scripts/write-image-manifest.mjs",
+    "vercel-build": "node scripts/vercel-setup.mjs && next build"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
