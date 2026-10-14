@@ -1,0 +1,233 @@
+{
+ "nav": {
+  "menu": "Menu",
+  "events": "Live music",
+  "branches": "Branches",
+  "catering": "Catering",
+  "gallery": "Gallery",
+  "contact": "Contact",
+  "main": "Main navigation",
+  "home": "Home",
+  "book": "Book"
+ },
+ "header": {
+  "bookTable": "Book a table",
+  "call": "Call",
+  "openMenu": "Open navigation",
+  "closeMenu": "Close navigation",
+  "language": "Language",
+  "skip": "Skip to content"
+ },
+ "status": {
+  "open": "Open now",
+  "closed": "Closed",
+  "closesAt": "until {time}",
+  "opensAt": "opens {time}",
+  "opensDayAt": "opens {day} {time}",
+  "today": "Today",
+  "closedFor": "Closed today: {name}",
+  "branchesOpen": "{count} of {total} branches open"
+ },
+ "hero": {
+  "viewMenu": "View menu",
+  "call": "Call",
+  "book": "Book a table"
+ },
+ "highlights": {
+  "title": "Why guests come back"
+ },
+ "signature": {
+  "eyebrow": "Signature dishes",
+  "title": "What people order",
+  "seeMenu": "Full menu"
+ },
+ "events": {
+  "eyebrow": "Live music & events",
+  "title": "Nights out at Mama's",
+  "every": "Every {day}",
+  "from": "from {time}",
+  "book": "Book a table",
+  "at": "at {branch}"
+ },
+ "branches": {
+  "eyebrow": "Branches",
+  "title": "Find a Mama's Kitchen near you",
+  "call": "Call",
+  "directions": "Directions",
+  "map": "Map",
+  "hideMap": "Hide map",
+  "hours": "Opening hours",
+  "today": "Today",
+  "closed": "Closed",
+  "mapTitle": "Map of {name}"
+ },
+ "catering": {
+  "eyebrow": "Catering",
+  "cta": "Ask about catering"
+ },
+ "inn": {
+  "eyebrow": "Mama's Inn",
+  "cta": "Call to book a room"
+ },
+ "gallery": {
+  "eyebrow": "Gallery",
+  "title": "Inside Mama's Kitchen",
+  "open": "Open photo {n}",
+  "close": "Close",
+  "prev": "Previous photo",
+  "next": "Next photo",
+  "counter": "{n} of {total}"
+ },
+ "reviews": {
+  "eyebrow": "Reviews",
+  "title": "What guests say",
+  "sample": "Sample review: real guest reviews coming soon",
+  "rating": "{n} out of 5 stars"
+ },
+ "about": {
+  "eyebrow": "Our story"
+ },
+ "footer": {
+  "rights": "All rights reserved.",
+  "websiteBy": "Website by",
+  "follow": "Follow us",
+  "admin": "Staff login"
+ },
+ "bar": {
+  "call": "Call",
+  "whatsapp": "WhatsApp",
+  "map": "Map"
+ },
+ "menu": {
+  "eyebrow": "Menu",
+  "title": "Our menu",
+  "searchLabel": "Search the menu",
+  "search": "Search dishes…",
+  "categories": "Menu sections",
+  "filters": "Filters",
+  "all": "All",
+  "branch": "Branch",
+  "allBranches": "All branches",
+  "noResults": "No dishes match.",
+  "clear": "Clear filters",
+  "soldOut": "Sold out",
+  "askPrice": "Ask for price",
+  "fastingDay": "Today is a fasting day (የጾም ቀን).",
+  "showFasting": "Show fasting dishes",
+  "pricesNote": "Prices in {currency}. Prices and availability may vary by branch.",
+  "count": "{count} dishes",
+  "order": "Order",
+  "orderItem": "Order {item} on WhatsApp"
+ },
+ "tags": {
+  "fasting": "Fasting · የጾም",
+  "vegetarian": "Vegetarian",
+  "spicy": "Spicy",
+  "popular": "Popular",
+  "new": "New"
+ },
+ "days": {
+  "0": "Sunday",
+  "1": "Monday",
+  "2": "Tuesday",
+  "3": "Wednesday",
+  "4": "Thursday",
+  "5": "Friday",
+  "6": "Saturday"
+ },
+ "daysShort": {
+  "0": "Sun",
+  "1": "Mon",
+  "2": "Tue",
+  "3": "Wed",
+  "4": "Thu",
+  "5": "Fri",
+  "6": "Sat"
+ },
+ "whatsapp": {
+  "hello": "Hello {name}, I'd like to order: "
+ },
+ "order": {
+  "add": "Add",
+  "addItem": "Add {item} to your order",
+  "added": "Added",
+  "tray": "Your order",
+  "view": "View order",
+  "items": "{count} items",
+  "empty": "Your order is empty. Add dishes from the menu.",
+  "total": "Total",
+  "noPriceNote": "Some dishes have no listed price; we'll confirm the total.",
+  "type": "How",
+  "pickup": "Pickup",
+  "delivery": "Delivery",
+  "dinein": "Dine in",
+  "branch": "Branch",
+  "name": "Your name",
+  "address": "Delivery address",
+  "note": "Note (optional)",
+  "notePh": "Allergies, spice level, time…",
+  "sendWhatsapp": "Send order on WhatsApp",
+  "sendTelegram": "Send on Telegram",
+  "copy": "Copy order",
+  "copied": "Copied!",
+  "call": "Or call us",
+  "clear": "Clear",
+  "close": "Close",
+  "decrease": "Remove one {item}",
+  "increase": "Add one {item}",
+  "msgHello": "Hello {name}, I'd like to order:",
+  "msgTotal": "Total",
+  "msgFor": "{type} at {branch}",
+  "msgName": "Name",
+  "msgAddress": "Address",
+  "msgNote": "Note",
+  "plusUnpriced": "plus items without price"
+ },
+ "booking": {
+  "eyebrow": "Reservations",
+  "title": "Book a table",
+  "lead": "Tell us when you're coming and we'll call you to confirm. For tonight or large groups, calling is fastest.",
+  "name": "Full name",
+  "phone": "Phone number",
+  "branch": "Branch",
+  "date": "Date",
+  "time": "Time",
+  "guests": "Guests",
+  "message": "Anything we should know? (optional)",
+  "messagePh": "Birthday, high chair, seating preference…",
+  "submit": "Request booking",
+  "sending": "Sending…",
+  "success": "Thank you! We received your request and will call you soon to confirm.",
+  "alsoWhatsapp": "Also send on WhatsApp",
+  "error": "Something went wrong. Please call us instead.",
+  "callNow": "Call now",
+  "perks1": "Confirmation call within opening hours",
+  "perks2": "Live music nights fill up fast: book early",
+  "perks3": "Groups and VIP lounge on request"
+ },
+ "cateringForm": {
+  "title": "Ask about catering",
+  "eventType": "Type of event",
+  "eventPh": "Office lunch, wedding, birthday…",
+  "guests": "Number of guests",
+  "date": "Event date",
+  "submit": "Send enquiry",
+  "success": "Thank you! Our catering team will call you soon."
+ },
+ "theme": {
+  "toggle": "Change theme"
+ },
+ "footer2": {
+  "explore": "Explore",
+  "visit": "Visit us",
+  "hours": "Opening hours",
+  "contact": "Contact",
+  "allBranches": "All branches",
+  "everyDay": "Every day"
+ },
+ "notFound": {
+  "title": "Page not found",
+  "text": "The page you're looking for doesn't exist. Maybe you were looking for the menu?",
+  "home": "Go home"
+ }
+}

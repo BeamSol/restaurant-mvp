@@ -1,0 +1,248 @@
+{
+  "/restaurant/hero.webp": {
+    "w": 1280,
+    "h": 720,
+    "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAkAA4BaJQBOiP/wK/OycAAA+7YTUYEeAzfAfFlqFadN6rGNJr9EXP8pvLJQM3TPMSQNlfGt2Y3HobYN2zy2zMIdqX26CKgoAAAA",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/about.webp": {
+    "w": 956,
+    "h": 637,
+    "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwAgCdASoQAAsAA4BaJbACdAYvDq4EjTfAgAD+fqxLYvx/19JGr/vNGoGC1glUrzrBBgioLyCbOrW+btcePhe7i8fs63DbQliAwhV7WsoUX5ZEnBYOPbvXBGexTA8smbyTTrShI5pW2h9l7gAAAA==",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/highlights/five-course.webp": {
+    "w": 800,
+    "h": 600,
+    "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABQAgCdASoQAAwAA4BaJbACdAYvXtShc/RiyAAA/u6dEfNfecA7uTJ4rHyEgxvM7d1KBFEuQPYrghbbfkDLQ9/xk1nmFtBKRV4dt6XQ3j3RFuKJUdC/21wfYobWj4RHoe2yD0ZPhioaAAAA",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/highlights/fasting-buffet.webp": {
+    "w": 800,
+    "h": 600,
+    "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABQAgCdASoQAAwAA4BaJbACdAYt9bWJMUxpgoAA/vRLax/PHzYYw28l9ZKTGrKd5M5Sod3nEYDd1rExJRYNKF4rPBXAI/s9yYiaLtJXAGHrOzJpfvrb3KQWK0K88LLWLmEQ2filVgFndbHsowAAAA==",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/highlights/live-music.webp": {
+    "w": 800,
+    "h": 600,
+    "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAwAgCdASoQAAwAA4BaJbACdAYuRWVC0TRmAAD+7N8LW7QfOAeHV+VPNQ7IWQ7b+8ggR7BnRY6YjOogk9WsxKQWcX4lh5VqrjO3nTrYdL5/S5VxtQv9Gaw8ZnTb/+5Gov6Syb6CeeZS4BDyylibvyAA",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/highlights/catering.webp": {
+    "w": 800,
+    "h": 552,
+    "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoQAAsAA4BaJbACdAEOgeGzBjwA/Swwocu0wk/Ab1Q0K5e3jTITTd8uqXfJuV/TL80c2bw6rFIr1Gx8gQKHX2bwV0V4M6qR0Jhf6zAnjW0wpGQWVrAAAA==",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/menu/lamb-tibs.webp": {
+    "w": 800,
+    "h": 600,
+    "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAwAgCdASoQAAwAA4BaJbACdAYullHVq+t0+ADOPUALLIgmfuKwIMfNqSN37ANFsz1kTwniVlj1mUkAj11IW5lmfSXyaxN6SuDwebyzQg0+kN+YTsJfMk7CMk/ZhWhezve5dOWjc0njVpPuOH6HxigAAAA=",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/menu/mamas-pizza.webp": {
+    "w": 697,
+    "h": 455,
+    "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAwAgCdASoQAAoAA4BaJbACdAYsFvfIAFdPAAD+9b94A6T4sqjdMWY7VXRqwrL0xY8XzNMfGHnWN5FB3gUczv8JP0qaszNgwWx+10Km+RsCIu+yzkuMZbq95DwSCpxK9FszrHF88ZQ929uoiAA=",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/menu/roast-chicken.webp": {
+    "w": 800,
+    "h": 600,
+    "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABwAgCdASoQAAwAA4BaJbACdLoAAucFI/dF8CuAAO+R9h55+A69D5e8Z39QwMfDb5mL/E4Jh4UdAlV9A1YT4o9oWvSBYwmGbPw1sWVvkqPqLYA5Vc+UhzyzoPjsiuJ9iANH+QrqlAFgAA==",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/menu/chicken-breast.webp": {
+    "w": 596,
+    "h": 447,
+    "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAQCdASoQAAwAA4BaJZACdACzG9cPAAD83fo5fFUVmboRXpttxTQyzPg279FsFtc5azzdmGUPMqv5rLqcjFWsahz1Qlhq6vcyGLvC6Q+Gsxo4i6vemgAA",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/menu/mixed-grill.webp": {
+    "w": 576,
+    "h": 494,
+    "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAABQAgCdASoQAA4AA4BaJbACdAYtBqfdnnlXboAA/Y9JFPNpd5KqrfcARn7hKFUt4mNB1zAMjLQvlRXin1wfpZo2W2yiwXv1Vt2uytT7CWcJSSikx2u4v7IcADGcPl07nD06RIINiMtcX6b/7/BexBKUx+OfJ5mVBYW9K2hLF2YdQAAA",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/menu/fasting-combo.webp": {
+    "w": 800,
+    "h": 800,
+    "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAAAwAgCdASoQABAAA4BaJbACdAYubzGI8z4iAAD+sN5yrY/f9g1ed94eZIRdu9PwIYl0AjBBV1TbRa8pJNtbEWCOIMPU5NEM0mkcxigE+juwouJRB7QMRy+bD+krpb4HcWzmctMBPlgXaSn7hkSdPgFYx5bRAvnsBUf7iU0tQVyfzgAA",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/menu/house-salad-tuna.webp": {
+    "w": 800,
+    "h": 579,
+    "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACQAgCdASoQAAwAA4BaJbACdAYub22A/IeK4mh5YAD9u7Z8xRg3A1qICZ7gD7fGrHT8co3J9s2Cec3BJqwedVYv1DJSYpi/ordR3LXMSwM7IDIMAUPuxT/U5HiAm52jWgP78K2OohmeyfCEUYLhielBr3qvcl9XWpdAAA==",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/menu/spaghetti.webp": {
+    "w": 800,
+    "h": 600,
+    "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABQAgCdASoQAAwAA4BaJbACdLoAEJ0NPeWVNSAA/tYRq/o6rotZW/diuUXvhNI7FlgPs2eifEOieDdqP8aZ+vxXs+55H6tz0qKFmgslAhf0foXWOOv/7MfAhrWQ3Da3C15fj8DvFScl2ug0sPnYLs2AAAA=",
+    "status": "OFFICIAL?"
+  },
+  "/restaurant/menu/grilled-chicken.webp": {
+    "w": 596,
+    "h": 511,
+    "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwAQCdASoQAA4AA4BaJbACdAYxFKpZ24AA/udIM/tnL5v2wkDsNosy8DCdwlUGznu3zcvjzCoz08dN+fNThWXzOHLwEbsUsumbbajt/uGYYB48+AnwDeS/vtaVmrgiub6tsNOC2ebe7KO5+vMHaypYxU6IAAAA",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/events/jam-session.webp": {
+    "w": 1000,
+    "h": 552,
+    "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAkAA4BaJbACdAEf8XpTMhioAAD+oWH3pyGnvghxTy9F4qFbrGGbgsB+wH+ISOCKH/utTOrcUBbNyuwREt28nTDT4KEAAAA=",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/events/live-band.webp": {
+    "w": 800,
+    "h": 600,
+    "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAABwAgCdASoQAAwAA4BaJbAC7AYqNy4XNVnToP38AOJ8TNv6mtfa0/Z7WmgRAM3l1k7WylE60YXhZRVM+v0vSsKL095+HbnqAgiyUQrtuiHV0PtLj4f/CaLMIQEesr11SslVgFIUFV9C6sjW50tOj2gA",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/events/jazz-night.webp": {
+    "w": 672,
+    "h": 504,
+    "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAwAgCdASoQAAwAA4BaJbACdAYwTlbao3RkKAD+7JcmLk1RgNJOs3x7f6/VTLtSGA1NiVhCLtWe9iq7BkemZPZVdTWbjEUsnjnMZ6Sdpa1ivXibna6Xl12qOfoIM80vpflgekrXdKlppNXb7+TDsP0XXxTyH6j7zqfsB/AAAAA=",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/events/zemen-band.webp": {
+    "w": 800,
+    "h": 600,
+    "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQAgCdASoQAAwAA4BaJbACdAYvNmj3f7QAAP6sK9WApTAYe3HrVdX8ri1Lf5Eo9Ri/hWCbwjC4jZWM9Hi1n2uM8bq0ckWoMsuienybXIhZ3JM9Ef45Ey+dlyk8C4ZTFBVn9wOm4CMjFORbAAA=",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/branches/bole-medhanialem.webp": {
+    "w": 900,
+    "h": 600,
+    "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoQAAsAA4BaJbACdAYua9B9CgAA9dpdULM7HPgCs7U4L1DR1zbJpYp01CYcjN2TAt1E30ta3rBBh0u7uom2nIRapeogB5N0Egz8WY6fd87iSMxeQB1Z5fCBSAA=",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/branches/4-killo.webp": {
+    "w": 720,
+    "h": 480,
+    "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABQAgCdASoQAAsAA4BaJYgCdDiAAVhBX8JiBxAA/kGNARYgqAKOn/iwSg0lUHQpdlKHmzNYCXw43DL204vwwiwgP7B2bCRYxWYtq3SlICBoj3kvW7WttB8AAAA=",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/branches/ministry-of-mines.webp": {
+    "w": 900,
+    "h": 600,
+    "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQAgCdASoQAAsAA4BaJbACdAEPhfx0vpRwAPugCatF+F9X+oXPLIr1f/TewawGMUPTcE/Yc2HmFbKnnJ++qfe9deAa5jAKwE+un0AFI1kZdpHXHYYev+q1+ximTZncYJfftcbgAAA=",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/branches/entoto.webp": {
+    "w": 900,
+    "h": 600,
+    "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQAgCdASoQAAsAA4BaJbACdAEQaHy3/N0gAP7AcJl2wZd0nYk5vxzqx0euGKiApQmcsQ1UGEx5wvEI3Ki6+xAaBD7U1bq6b8tLQlv/vRbZ/r5bAxVbQvbpQn1IAdGAAAA=",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/branches/royal-lounge.webp": {
+    "w": 900,
+    "h": 600,
+    "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAQCdASoQAAsAA4BaJbACdAC6C0uzoAD79PHua5mv1TbBxCevJExcPl+f8abc7+3YX0DYukaxBDxFf7GvLXdd8HNc7mdLaGd3x0uYbd/h9b8+uBwPq+3rriMcNPAA",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/branches/catering-moenco.webp": {
+    "w": 900,
+    "h": 600,
+    "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAABQAgCdASoQAAsAA4BaJbACdAYt9lF7D9NO2AAA/tD6T0AnxOpchBycxTLMEuPJdvkMQire3Vx9KrDQFLq+67T7CfhrHmulnbOOWRFt8r+xEVa6xdXf+KPuiSiMTJfFsLQ+P5TU6g6pUEoAAAA=",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/catering.webp": {
+    "w": 960,
+    "h": 637,
+    "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwAgCdASoQAAsAA4BaJagCdH8AFdwq3V4x+AD+3e3Sk5V2E01wlM9jIuU0PtCuAZSKWYHjmf1dym8zkI6V3go70LV0281XieI9qhctBbWFkOBfuHYWMYa4CtSyv31PaKoAAA==",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/mamas-inn.webp": {
+    "w": 1200,
+    "h": 800,
+    "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoQAAsAA4BaJbACdADNElzLbZcAAPjjOs3rb/k/J1BWcmi8oMqBv2GYynFuDWw/uHxHi7PtZoue+uHc3k+OBFdJ+uhEAAAA",
+    "status": "STOCK – replace"
+  },
+  "/restaurant/gallery/buffet-lounge.webp": {
+    "w": 868,
+    "h": 651,
+    "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAwAgCdASoQAAwAA4BaJbACdAYt9bYgui93QAD+fV/steoM40kJFM0pxl0ichvEmyGPnVo92JAxr6WevS5Vl5ajfJBkRPlFbgqb5Rb1zdTSBNeWPqB0PW3N/JaVQzvs27ol17tdDkQM8/QdAAA=",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/gallery/cocktails.webp": {
+    "w": 998,
+    "h": 619,
+    "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQAgCdASoQAAoAA4BaJbACdAEPdd2SECvAAP7N807da0X4CEovSitai1KWOl6aR+l/AFMqcxQUNssA5bOHTOwDw34BTmplP9Wwy785mjlFe2oyv8wg51YqlItG1qFOgEFCaAAA",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/gallery/cocktail-friends.webp": {
+    "w": 984,
+    "h": 618,
+    "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAwAgCdASoQAAoAA4BaJZACdAYuRTSyYQdwAAD0WMJS3l2N0+Niu+ITLrCZbmIYst7UOnnrj41geU6LeJwVnJ8sjKAtnBWWovWEuDgdezyOEzywLgALo91bvgWre/DbCeUA6mo6qhAAAA==",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/gallery/vip-lounge.webp": {
+    "w": 700,
+    "h": 466,
+    "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAABQAgCdASoQAAsAA4BaJbACdAYvXgf6c2ZaQiAA/lv+8FasVLo60mia52d9KZoKpflgHZLvdv7UMZyrHGPaDvLiG+5qd+2G7JPd1UEXs8BH9Gi2v7PuwKf1Xu3VV971Uxm15bPqhXsFOg0oAAA=",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/gallery/vip-room.webp": {
+    "w": 800,
+    "h": 532,
+    "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwAgCdASoQAAsAA4BaJbACdAEDX+mXbTbhgAD+9d1etZJMv0vqL9JtlsWiPmqzhgEEBfW/TeVq93CnFzuOnMMzs8kAItR4tBwjGTJbWZZSwfijqc5IpKl2d49DXlcfWQigNEtpqN5/lFcljwAAAA==",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/gallery/bar.webp": {
+    "w": 753,
+    "h": 399,
+    "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQAgCdASoQAAgAA4BaJbACdAYr7wJOXPQM1IAA/tDyttrT4qJExzzuVGjclImrzG1keff1JfHP/nGMlUYuVttnye+vh8dTn9DMz4qIWvxGPih5v8x6lBW8pAAAAA==",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/gallery/fruit-carving.webp": {
+    "w": 1200,
+    "h": 675,
+    "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwAQCdASoQAAkAA4BaJZgCdAD6CcUr8AAA/uRqVGkderON5u+7AiUbzcZq42r1rXMI3eh0uoWzvKAFXUzov62npGqfZnbEpcI4DfLW3OkC9eYhoIrfV7+nro4aeb5fbDWZdu7TVBznnIKYt7BqingA",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/gallery/entoto-garden.webp": {
+    "w": 1200,
+    "h": 675,
+    "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoQAAkAA4BaJbAAD4iwX7aUrByAAP7kan+vjR5Kv3f+09R5RCO/dSGJLDvav/RU03pLoHatlPDvoihzAPb2vdumTD6MhgogPKmShiSFDTNAgAAA",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/gallery/entoto-terrace.webp": {
+    "w": 1200,
+    "h": 675,
+    "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQAAkAA4BaJZACdH8AGM5kchNYAAD+hBna25paHP9STo9HfXmZ63CBUk4bELG9bNRaFNNtPguMBrj2QHGpm2RoRR2MgsCh2Y+eJxIy5gAAAA==",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/gallery/ministry-dining.webp": {
+    "w": 720,
+    "h": 960,
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAACwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JZACdMoMh1EtDQyMDLtSpDnVszjeAAP4/vt3TIrBOlJMnoHHfxqlPLV0bv62BAp9iivaSB2yXYD6yqDzulz+Pw2rxEmsQOkqVsXPtsN5NlKxu5CdqBBHxCuq2UB3O+dyS/MuERIm0RNN9MP03JPWoAAA=",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/gallery/lamb-tibs.webp": {
+    "w": 960,
+    "h": 639,
+    "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABQAgCdASoQAAsAA4BaJbACdAYuRbZZvk3Q0wAA+6Wtv4o/Pt8UuZJu8bQjE2Spi32gfSjdNr69PvIgBC4YKQTBBrt85N5JEgDsqDeU0/Fmv4eb41+MdThb5ESM5A681S/BZ5t11sJnXujokw1AMDxCdlAAAA==",
+    "status": "OFFICIAL"
+  },
+  "/restaurant/gallery/coffee-pour.webp": {
+    "w": 900,
+    "h": 1200,
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABQBACdASoQABUAPu1iqU2ppaOiMAgBMB2JbACdMoR3ACGfQueQiM/oTi+AAP7ck7v+nJdeM5AyJFwVy1beg5F5myUqORIQzj4ZOfhwO9E2YmrrHs+yBmRvruG6LORfmnG2KWeN1asVPw9fbJlDxtAxSvY+HzwMOxYL9nO8C5LODGcHrcuEP6eAAAA=",
+    "status": "STOCK – replace"
+  },
+  "/restaurant/gallery/coffee-ceremony.webp": {
+    "w": 900,
+    "h": 1200,
+    "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABQBACdASoQABUAPu1iqU2ppaOiMAgBMB2JYwCdAYyez6rg/1C6bsgCyJ0AAP7nS3HxrdzU9BP/ik8S6A4ciL9kS8LuEmQBf1GNePiqrmdxx3TK7MrcsEBCl6oQWbc7fNDeIxUtKw95mlvg9TXgH/aXnhD/0VJmpLt2Ps+RcoYerp07T2dQSSE/Q2aHnSVp1lo+5tqcQAA=",
+    "status": "STOCK – replace"
+  },
+  "/restaurant/gallery/mesob.webp": {
+    "w": 1200,
+    "h": 800,
+    "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABQAgCdASoQAAsAA4BaJQBOgMXr5cFS1WnCeQAA+4g1tcy6jCc9AL4fCvuIiJouG24RZvChT1sniZvSDFvO8tHeZXfsEqtdpJqwNZq3pWTF7KgjC/b3PpoU9SQZhoOCcrwAAA==",
+    "status": "STOCK – replace"
+  }
+}

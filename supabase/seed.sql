@@ -1,0 +1,2 @@
+-- Content is loaded by `npm run db:seed` (scripts/seed.mts), which also
+-- extracts the logo palette and image blur placeholders.

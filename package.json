@@ -1,0 +1,41 @@
+{
+  "name": "mamas-kitchen-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Restaurant website + admin (Next.js + Supabase). First client: Mama's Kitchen, Addis Ababa.",
+  "scripts": {
+    "dev": "next dev -p 3100",
+    "build": "next build",
+    "start": "next start -p 3100",
+    "lint": "tsc --noEmit",
+    "test": "node --experimental-strip-types --no-warnings --test src/lib/*.test.ts",
+    "db:start": "supabase start",
+    "db:stop": "supabase stop",
+    "db:reset": "supabase db reset && npm run db:seed",
+    "db:seed": "node --experimental-strip-types --no-warnings scripts/seed.mts",
+    "create-owner": "node --experimental-strip-types --no-warnings scripts/create-owner.mts",
+    "palette": "node --experimental-strip-types --no-warnings scripts/extract-palette.mts",
+    "images": "node scripts/process-images.mjs",
+    "images:manifest": "node scripts/write-image-manifest.mjs"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.117.2",
+    "next": "^16.4.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "server-only": "^0.0.1",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "supabase": "^2.118.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5"
+  }
+}

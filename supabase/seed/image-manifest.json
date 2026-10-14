@@ -1,0 +1,388 @@
+[
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20221012213535/https://mamaskitchenethiopia.com/wp-content/uploads/2021/11/Chicken-Breast.jpg",
+    "use": "Home hero; menu: Grilled Chicken Breast",
+    "note": "Ministry of Mines branch, Nov 2021",
+    "file": "/restaurant/hero.webp",
+    "width": 1280,
+    "height": 720,
+    "kb": 72
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180814045524/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/14519656_1284378251593624_8495757720141193193_n.jpg",
+    "use": "About section",
+    "note": "Lounge interior (Baritone). Has logo watermark",
+    "file": "/restaurant/about.webp",
+    "width": 956,
+    "height": 637,
+    "kb": 57
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180923010748/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/21077221_1642974985733947_2703483401189457054_n.jpg",
+    "use": "Highlight: Five-course meal; menu: Five-course meal",
+    "note": "Table set with wine and platter; not literally the five courses",
+    "file": "/restaurant/highlights/five-course.webp",
+    "width": 800,
+    "height": 600,
+    "kb": 54
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20221012213535/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/14089151_1250253505006099_421511249777976783_n.jpg",
+    "use": "Highlight: Fasting buffet; menu: Fasting lunch buffet",
+    "note": "Baritone Lounge buffet line",
+    "file": "/restaurant/highlights/fasting-buffet.webp",
+    "width": 800,
+    "height": 600,
+    "kb": 58
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180814045632/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/29790788_1881495985215178_2473381737124155945_n.jpg",
+    "use": "Highlight: Live music; event: Friday Jazz Night",
+    "note": "Royal Lounge stage",
+    "file": "/restaurant/highlights/live-music.webp",
+    "width": 800,
+    "height": 600,
+    "kb": 54
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180814045436/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/20156050_1605008009530645_5234349542591868039_n.jpg",
+    "use": "Highlight: Catering",
+    "note": "From the 'Take Away Catering' block on the official home page",
+    "file": "/restaurant/highlights/catering.webp",
+    "width": 800,
+    "height": 552,
+    "kb": 27
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180922201841/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/21032627_1642975029067276_322181058147471120_n.jpg",
+    "use": "Menu: Chopped Lamb Tibs (signature)",
+    "file": "/restaurant/menu/lamb-tibs.webp",
+    "width": 800,
+    "height": 600,
+    "kb": 25
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180814052538/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/30714101_1895491190482324_3279973308351350359_n.jpg",
+    "use": "Menu: Mama's Kitchen Pizza (signature)",
+    "note": "Low-res (697px); used small",
+    "file": "/restaurant/menu/mamas-pizza.webp",
+    "width": 697,
+    "height": 455,
+    "kb": 43
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180814045628/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/Untitldfdfed.png",
+    "use": "Menu: Half Roast Chicken (signature)",
+    "file": "/restaurant/menu/roast-chicken.webp",
+    "width": 800,
+    "height": 600,
+    "kb": 48
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20221012213535/https://mamaskitchenethiopia.com/wp-content/uploads/2021/11/Chicken-Breast.jpg",
+    "use": "Menu: Grilled Chicken Breast (signature)",
+    "file": "/restaurant/menu/chicken-breast.webp",
+    "width": 596,
+    "height": 447,
+    "kb": 27
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180814052556/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/food.png",
+    "use": "Menu: Mixed Grill (signature)",
+    "note": "Cropped away the 'Eat tasty but healthy' text panel",
+    "file": "/restaurant/menu/mixed-grill.webp",
+    "width": 576,
+    "height": 494,
+    "kb": 39
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20221012213535/https://mamaskitchenethiopia.com/wp-content/uploads/2021/03/MamasFasting.jpg",
+    "use": "Menu: Mama's Fasting Combo (signature)",
+    "note": "Collage of their fasting dishes",
+    "file": "/restaurant/menu/fasting-combo.webp",
+    "width": 800,
+    "height": 800,
+    "kb": 79
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180923004300/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/14457303_1277629742268475_706937432325805019_n.jpg",
+    "use": "Menu: House Special Salad with Tuna",
+    "note": "Shown as 'Tuna Salad' on the official /menu/ page",
+    "file": "/restaurant/menu/house-salad-tuna.webp",
+    "width": 800,
+    "height": 579,
+    "kb": 43
+  },
+  {
+    "status": "OFFICIAL?",
+    "source": "https://web.archive.org/web/20180922185807/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/cropped-1-1P31001011TA.jpg",
+    "use": "Menu: Spaghetti with Tomato",
+    "note": "On their site, but looks like a stock photo from the WordPress theme. Replace",
+    "file": "/restaurant/menu/spaghetti.webp",
+    "width": 800,
+    "height": 600,
+    "kb": 32
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180814044646/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/foo.png",
+    "use": "Menu: Half Grilled Chicken",
+    "note": "Cropped away the text panel",
+    "file": "/restaurant/menu/grilled-chicken.webp",
+    "width": 596,
+    "height": 511,
+    "kb": 46
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180922234047/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/Undfggitled.png",
+    "use": "Event: Monday Jam Session",
+    "file": "/restaurant/events/jam-session.webp",
+    "width": 1000,
+    "height": 552,
+    "kb": 48
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180814045432/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/29512807_1866690140029096_5562299908680013498_n.jpg",
+    "use": "Event: Tuesday Live Band",
+    "file": "/restaurant/events/live-band.webp",
+    "width": 800,
+    "height": 600,
+    "kb": 51
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180814045632/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/29790788_1881495985215178_2473381737124155945_n.jpg",
+    "use": "Event: Friday Jazz Night",
+    "file": "/restaurant/events/jazz-night.webp",
+    "width": 672,
+    "height": 504,
+    "kb": 41
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180922231740/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/29695195_1876026082428835_4632021099191083772_n.jpg",
+    "use": "Event: Sunday Zemen Band",
+    "note": "Group photo on stage; not necessarily Zemen band",
+    "file": "/restaurant/events/zemen-band.webp",
+    "width": 800,
+    "height": 600,
+    "kb": 66
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180814050121/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/14354936_1277630762268373_793393309281263969_n.jpg",
+    "use": "Branch: Bole Medhanialem (Baritone Lounge)",
+    "note": "Building exterior",
+    "file": "/restaurant/branches/bole-medhanialem.webp",
+    "width": 900,
+    "height": 600,
+    "kb": 62
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20221012213538/https://mamaskitchenethiopia.com/wp-content/uploads/2021/03/4killo2.jpg",
+    "use": "Branch: 4 Killo",
+    "note": "Portrait photo cropped to landscape",
+    "file": "/restaurant/branches/4-killo.webp",
+    "width": 720,
+    "height": 480,
+    "kb": 61
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20221012213535/https://mamaskitchenethiopia.com/wp-content/uploads/2021/11/wow.jpg",
+    "use": "Branch: Ministry of Mines",
+    "file": "/restaurant/branches/ministry-of-mines.webp",
+    "width": 900,
+    "height": 600,
+    "kb": 35
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20221012213536/https://mamaskitchenethiopia.com/wp-content/uploads/2021/03/entoto.jpg",
+    "use": "Branch: Entoto Park",
+    "file": "/restaurant/branches/entoto.webp",
+    "width": 900,
+    "height": 600,
+    "kb": 103
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180814044748/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/club-1.png",
+    "use": "Branch: Royal Lounge (Wollo Sefer)",
+    "file": "/restaurant/branches/royal-lounge.webp",
+    "width": 900,
+    "height": 600,
+    "kb": 72
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180814045835/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/16996030_1444259272272187_1322082837518738505_n.png",
+    "use": "Branch: Catering (Bole Moenco)",
+    "note": "Catering fruit display; not the Moenco building",
+    "file": "/restaurant/branches/catering-moenco.webp",
+    "width": 900,
+    "height": 600,
+    "kb": 42
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180922184506/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/20621816_1624785264219586_4655035606183108534_n.jpg",
+    "use": "Catering section",
+    "file": "/restaurant/catering.webp",
+    "width": 960,
+    "height": 637,
+    "kb": 92
+  },
+  {
+    "status": "STOCK – replace",
+    "source": "https://unsplash.com/photos/TFXCpP5V3Ds (Jazmin Wong, Unsplash License)",
+    "use": "Mama's Inn section",
+    "file": "/restaurant/mamas-inn.webp",
+    "width": 1200,
+    "height": 800,
+    "kb": 51
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180814054112/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/20620748_1624785234219589_4889199035335034700_n.jpg",
+    "use": "Gallery",
+    "file": "/restaurant/gallery/buffet-lounge.webp",
+    "width": 868,
+    "height": 651,
+    "kb": 78
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180814054119/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/cocktail2.png",
+    "use": "Gallery; highlight card for cocktails",
+    "file": "/restaurant/gallery/cocktails.webp",
+    "width": 998,
+    "height": 619,
+    "kb": 48
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180814045448/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/cocktail.png",
+    "use": "Gallery",
+    "note": "Promotional photo with models; confirm usage rights",
+    "file": "/restaurant/gallery/cocktail-friends.webp",
+    "width": 984,
+    "height": 618,
+    "kb": 52
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180922231722/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/vip2.png",
+    "use": "Gallery",
+    "file": "/restaurant/gallery/vip-lounge.webp",
+    "width": 700,
+    "height": 466,
+    "kb": 68
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180814045506/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/vip5.png",
+    "use": "Gallery",
+    "file": "/restaurant/gallery/vip-room.webp",
+    "width": 800,
+    "height": 532,
+    "kb": 52
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180922223737/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/Untdfitled.png",
+    "use": "Gallery",
+    "file": "/restaurant/gallery/bar.webp",
+    "width": 753,
+    "height": 399,
+    "kb": 54
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180923030027/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/cropped-14441012_1277629468935169_734687430338493026_n.jpg",
+    "use": "Gallery",
+    "file": "/restaurant/gallery/fruit-carving.webp",
+    "width": 1200,
+    "height": 675,
+    "kb": 68
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20221012213536/https://mamaskitchenethiopia.com/wp-content/uploads/2021/03/entoto3.jpg",
+    "use": "Gallery",
+    "file": "/restaurant/gallery/entoto-garden.webp",
+    "width": 1200,
+    "height": 675,
+    "kb": 118
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20221012213536/https://mamaskitchenethiopia.com/wp-content/uploads/2021/03/entoto1.jpg",
+    "use": "Gallery",
+    "file": "/restaurant/gallery/entoto-terrace.webp",
+    "width": 1200,
+    "height": 675,
+    "kb": 119
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20221012213535/https://mamaskitchenethiopia.com/wp-content/uploads/2021/11/relax.jpg",
+    "use": "Gallery",
+    "file": "/restaurant/gallery/ministry-dining.webp",
+    "width": 720,
+    "height": 960,
+    "kb": 81
+  },
+  {
+    "status": "OFFICIAL",
+    "source": "https://web.archive.org/web/20180922201841/https://mamaskitchenethiopia.com/wp-content/uploads/2018/05/21032627_1642975029067276_322181058147471120_n.jpg",
+    "use": "Gallery",
+    "file": "/restaurant/gallery/lamb-tibs.webp",
+    "width": 960,
+    "height": 639,
+    "kb": 33
+  },
+  {
+    "status": "STOCK – replace",
+    "source": "https://unsplash.com/photos/v-NdnkoKEQs (Amanuel Kebede, Unsplash License)",
+    "use": "Gallery; five-course 'special tea' mood",
+    "file": "/restaurant/gallery/coffee-pour.webp",
+    "width": 900,
+    "height": 1200,
+    "kb": 52
+  },
+  {
+    "status": "STOCK – replace",
+    "source": "https://unsplash.com/photos/WcWvmyG73yU (Zeynep S., Unsplash License)",
+    "use": "Gallery",
+    "file": "/restaurant/gallery/coffee-ceremony.webp",
+    "width": 900,
+    "height": 1200,
+    "kb": 83
+  },
+  {
+    "status": "STOCK – replace",
+    "source": "https://unsplash.com/photos/skh-CC9A77U (Zeynep S., Unsplash License)",
+    "use": "Gallery",
+    "file": "/restaurant/gallery/mesob.webp",
+    "width": 1200,
+    "height": 800,
+    "kb": 70
+  }
+]

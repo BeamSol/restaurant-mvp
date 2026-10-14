@@ -1,0 +1,233 @@
+{
+ "nav": {
+  "menu": "ምግብ ዝርዝር",
+  "events": "የቀጥታ ሙዚቃ",
+  "branches": "ቅርንጫፎች",
+  "catering": "የምግብ ዝግጅት",
+  "gallery": "ፎቶዎች",
+  "contact": "ያግኙን",
+  "main": "ዋና ማውጫ",
+  "home": "መነሻ",
+  "book": "ቦታ ማስያዝ"
+ },
+ "header": {
+  "bookTable": "ቦታ ይያዙ",
+  "call": "ይደውሉ",
+  "openMenu": "ማውጫውን ክፈት",
+  "closeMenu": "ማውጫውን ዝጋ",
+  "language": "ቋንቋ",
+  "skip": "ወደ ዋናው ይዘት ይለፉ"
+ },
+ "status": {
+  "open": "አሁን ክፍት ነው",
+  "closed": "ዝግ ነው",
+  "closesAt": "እስከ {time}",
+  "opensAt": "{time} ይከፈታል",
+  "opensDayAt": "{day} {time} ይከፈታል",
+  "today": "ዛሬ",
+  "closedFor": "ዛሬ ዝግ ነው፦ {name}",
+  "branchesOpen": "ከ{total} ቅርንጫፎች {count} ክፍት ናቸው"
+ },
+ "hero": {
+  "viewMenu": "ምግብ ዝርዝር",
+  "call": "ይደውሉ",
+  "book": "ቦታ ይያዙ"
+ },
+ "highlights": {
+  "title": "እንግዶች ለምን ይመለሳሉ"
+ },
+ "signature": {
+  "eyebrow": "ልዩ ምግቦች",
+  "title": "ብዙዎች የሚያዝዙት",
+  "seeMenu": "ሙሉ ምግብ ዝርዝር"
+ },
+ "events": {
+  "eyebrow": "የቀጥታ ሙዚቃና ዝግጅቶች",
+  "title": "በማማስ የምሽት ጊዜ",
+  "every": "በየ{day}",
+  "from": "ከ{time} ጀምሮ",
+  "book": "ቦታ ይያዙ",
+  "at": "በ{branch}"
+ },
+ "branches": {
+  "eyebrow": "ቅርንጫፎች",
+  "title": "በአቅራቢያዎ ያለውን ማማስ ኪችን ያግኙ",
+  "call": "ይደውሉ",
+  "directions": "አቅጣጫ",
+  "map": "ካርታ",
+  "hideMap": "ካርታውን ደብቅ",
+  "hours": "የሥራ ሰዓት",
+  "today": "ዛሬ",
+  "closed": "ዝግ",
+  "mapTitle": "የ{name} ካርታ"
+ },
+ "catering": {
+  "eyebrow": "የምግብ ዝግጅት",
+  "cta": "ስለ ምግብ ዝግጅት ይጠይቁ"
+ },
+ "inn": {
+  "eyebrow": "ማማስ ኢን",
+  "cta": "ክፍል ለመያዝ ይደውሉ"
+ },
+ "gallery": {
+  "eyebrow": "ፎቶዎች",
+  "title": "በማማስ ኪችን ውስጥ",
+  "open": "ፎቶ {n} ክፈት",
+  "close": "ዝጋ",
+  "prev": "ቀዳሚ ፎቶ",
+  "next": "ቀጣይ ፎቶ",
+  "counter": "{n} ከ {total}"
+ },
+ "reviews": {
+  "eyebrow": "አስተያየቶች",
+  "title": "እንግዶች ምን ይላሉ",
+  "sample": "ናሙና አስተያየት፤ እውነተኛ የእንግዶች አስተያየት በቅርቡ",
+  "rating": "ከ5 ኮከብ {n}"
+ },
+ "about": {
+  "eyebrow": "ታሪካችን"
+ },
+ "footer": {
+  "rights": "መብቱ በሕግ የተጠበቀ ነው።",
+  "websiteBy": "ድረ-ገጹን የሠራው",
+  "follow": "ይከተሉን",
+  "admin": "የሠራተኞች መግቢያ"
+ },
+ "bar": {
+  "call": "ይደውሉ",
+  "whatsapp": "ዋትስአፕ",
+  "map": "ካርታ"
+ },
+ "menu": {
+  "eyebrow": "ምግብ ዝርዝር",
+  "title": "ምግብ ዝርዝራችን",
+  "searchLabel": "ምግብ ይፈልጉ",
+  "search": "ምግብ ይፈልጉ…",
+  "categories": "የምግብ ክፍሎች",
+  "filters": "ማጣሪያዎች",
+  "all": "ሁሉም",
+  "branch": "ቅርንጫፍ",
+  "allBranches": "ሁሉም ቅርንጫፎች",
+  "noResults": "የሚዛመድ ምግብ የለም።",
+  "clear": "ማጣሪያዎችን አጽዳ",
+  "soldOut": "አልቋል",
+  "askPrice": "ዋጋ ይጠይቁ",
+  "fastingDay": "ዛሬ የጾም ቀን ነው።",
+  "showFasting": "የጾም ምግቦችን አሳይ",
+  "pricesNote": "ዋጋዎች በ{currency}። ዋጋና የምግብ አቅርቦት በቅርንጫፍ ሊለያይ ይችላል።",
+  "count": "{count} ምግቦች",
+  "order": "ይዘዙ",
+  "orderItem": "{item} በዋትስአፕ ይዘዙ"
+ },
+ "tags": {
+  "fasting": "የጾም",
+  "vegetarian": "የአትክልት",
+  "spicy": "የሚያቃጥል",
+  "popular": "ተወዳጅ",
+  "new": "አዲስ"
+ },
+ "days": {
+  "0": "እሁድ",
+  "1": "ሰኞ",
+  "2": "ማክሰኞ",
+  "3": "ረቡዕ",
+  "4": "ሐሙስ",
+  "5": "ዓርብ",
+  "6": "ቅዳሜ"
+ },
+ "daysShort": {
+  "0": "እሁ",
+  "1": "ሰኞ",
+  "2": "ማክ",
+  "3": "ረቡ",
+  "4": "ሐሙ",
+  "5": "ዓር",
+  "6": "ቅዳ"
+ },
+ "whatsapp": {
+  "hello": "ሰላም {name}፣ ማዘዝ የምፈልገው፦ "
+ },
+ "order": {
+  "add": "ጨምር",
+  "addItem": "{item} ወደ ትዕዛዝዎ ይጨምሩ",
+  "added": "ተጨምሯል",
+  "tray": "ትዕዛዝዎ",
+  "view": "ትዕዛዝ ይመልከቱ",
+  "items": "{count} ምግቦች",
+  "empty": "ትዕዛዝዎ ባዶ ነው። ከምግብ ዝርዝሩ ይጨምሩ።",
+  "total": "ጠቅላላ",
+  "noPriceNote": "አንዳንድ ምግቦች ዋጋ የላቸውም፤ ጠቅላላውን እናረጋግጣለን።",
+  "type": "እንዴት",
+  "pickup": "ወስዶ መሄድ",
+  "delivery": "ማድረስ",
+  "dinein": "እዚሁ መመገብ",
+  "branch": "ቅርንጫፍ",
+  "name": "ስምዎ",
+  "address": "የማድረሻ አድራሻ",
+  "note": "ማስታወሻ (አማራጭ)",
+  "notePh": "አለርጂ፣ የቅመም መጠን፣ ሰዓት…",
+  "sendWhatsapp": "ትዕዛዝ በዋትስአፕ ይላኩ",
+  "sendTelegram": "በቴሌግራም ይላኩ",
+  "copy": "ትዕዛዙን ቅዳ",
+  "copied": "ተቀድቷል!",
+  "call": "ወይም ይደውሉልን",
+  "clear": "አጽዳ",
+  "close": "ዝጋ",
+  "decrease": "አንድ {item} ቀንስ",
+  "increase": "አንድ {item} ጨምር",
+  "msgHello": "ሰላም {name}፣ ማዘዝ የምፈልገው፦",
+  "msgTotal": "ጠቅላላ",
+  "msgFor": "{type}፣ {branch}",
+  "msgName": "ስም",
+  "msgAddress": "አድራሻ",
+  "msgNote": "ማስታወሻ",
+  "plusUnpriced": "እና ዋጋ ያልተጻፈላቸው"
+ },
+ "booking": {
+  "eyebrow": "ቦታ ማስያዝ",
+  "title": "ጠረጴዛ ይያዙ",
+  "lead": "መቼ እንደሚመጡ ይንገሩን፤ ለማረጋገጥ እንደውልልዎታለን። ለዛሬ ምሽት ወይም ለብዙ ሰዎች መደወል ፈጣን ነው።",
+  "name": "ሙሉ ስም",
+  "phone": "ስልክ ቁጥር",
+  "branch": "ቅርንጫፍ",
+  "date": "ቀን",
+  "time": "ሰዓት",
+  "guests": "የሰው ብዛት",
+  "message": "ማወቅ ያለብን ነገር አለ? (አማራጭ)",
+  "messagePh": "ልደት፣ የልጅ ወንበር፣ የመቀመጫ ምርጫ…",
+  "submit": "ቦታ ይጠይቁ",
+  "sending": "በመላክ ላይ…",
+  "success": "እናመሰግናለን! ጥያቄዎ ደርሶናል፤ ለማረጋገጥ በቅርቡ እንደውላለን።",
+  "alsoWhatsapp": "በዋትስአፕም ይላኩ",
+  "error": "ችግር ተፈጥሯል። እባክዎ ይደውሉልን።",
+  "callNow": "አሁን ይደውሉ",
+  "perks1": "በሥራ ሰዓት የማረጋገጫ ስልክ",
+  "perks2": "የሙዚቃ ምሽቶች ቶሎ ይሞላሉ፤ ቀድመው ይያዙ",
+  "perks3": "ለቡድኖችና ለቪአይፒ ላውንጅ በጥያቄ"
+ },
+ "cateringForm": {
+  "title": "ስለ ምግብ ዝግጅት ይጠይቁ",
+  "eventType": "የዝግጅቱ ዓይነት",
+  "eventPh": "የቢሮ ምሳ፣ ሠርግ፣ ልደት…",
+  "guests": "የእንግዶች ብዛት",
+  "date": "የዝግጅቱ ቀን",
+  "submit": "ጥያቄ ይላኩ",
+  "success": "እናመሰግናለን! የምግብ ዝግጅት ቡድናችን በቅርቡ ይደውልልዎታል።"
+ },
+ "theme": {
+  "toggle": "ገጽታ ቀይር"
+ },
+ "footer2": {
+  "explore": "ይጎብኙ",
+  "visit": "ይምጡ",
+  "hours": "የሥራ ሰዓት",
+  "contact": "ያግኙን",
+  "allBranches": "ሁሉም ቅርንጫፎች",
+  "everyDay": "በየቀኑ"
+ },
+ "notFound": {
+  "title": "ገጹ አልተገኘም",
+  "text": "የሚፈልጉት ገጽ የለም። ምናልባት ምግብ ዝርዝሩን ይፈልጉ ይሆን?",
+  "home": "ወደ መነሻ"
+ }
+}

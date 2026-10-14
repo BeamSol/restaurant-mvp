@@ -1,0 +1,275 @@
+@import "tailwindcss";
+
+/* Dark mode: `dark:` utilities follow <html data-theme="dark"> (set before paint, see layout.tsx). */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/*
+ * DESIGN TOKENS
+ * Colors come from the database (restaurant_settings.tokens, extracted from the
+ * logo, editable in Admin → Settings). The root layout writes a light and a dark
+ * set of --c-* variables; Tailwind classes like `bg-primary` read them here.
+ */
+@theme inline {
+  --color-primary: var(--c-primary);
+  --color-primary-strong: var(--c-primary-strong);
+  --color-accent: var(--c-accent);
+  --color-bg: var(--c-bg);
+  --color-surface: var(--c-surface);
+  --color-border: var(--c-border);
+  --color-ink: var(--c-text);
+  --color-muted: var(--c-muted);
+  --color-on-primary: var(--c-on-primary);
+  /* dark "band" sections (events, footer) in both themes */
+  --color-band: var(--c-band);
+  --color-on-band: var(--c-on-band);
+  /* tint of primary for chips, hovers, selected states */
+  --color-tint: color-mix(in oklab, var(--c-primary) 10%, var(--c-surface));
+  /* primary lightened for text on band / dark photos */
+  --color-primary-soft: color-mix(in oklab, var(--c-primary) 45%, white);
+
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, var(--font-ethiopic), "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-heading), var(--font-ethiopic), system-ui, sans-serif;
+
+  --radius-btn: 10px;
+  --radius-card: 16px;
+
+  --animate-fade-up: fade-up 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+/* ---------------- base ---------------- */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+  -webkit-tap-highlight-color: transparent;
+  color-scheme: light;
+}
+html[data-theme="dark"] { color-scheme: dark; }
+body {
+  background: var(--c-bg);
+  color: var(--c-text);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+::selection { background: color-mix(in oklab, var(--c-primary) 30%, transparent); }
+:focus-visible {
+  outline: 2px solid var(--c-primary);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+@layer components {
+  /* ---------------- type ---------------- */
+  /* Hero headline */
+  .display {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 1.04;
+    letter-spacing: -0.025em;
+    text-wrap: balance;
+  }
+  .h1 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+  .h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 1.18;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+  }
+  .h3 {
+    font-family: var(--font-display);
+    font-weight: 750;
+    font-size: 17px;
+    line-height: 1.3;
+  }
+  .lead { font-size: 16px; line-height: 1.6; color: var(--c-muted); }
+  .text-secondary { font-size: 14px; line-height: 1.6; color: var(--c-muted); }
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--c-primary);
+  }
+  /* small oval before the eyebrow, echoing the oval logo */
+  .eyebrow::before { content: ""; width: 14px; height: 8px; border-radius: 50%; background: currentColor; }
+  @media (min-width: 1024px) {
+    .display { font-size: 60px; }
+    .h1 { font-size: 46px; }
+    .h2 { font-size: 34px; }
+    .h3 { font-size: 18px; }
+    .lead { font-size: 17px; }
+  }
+
+  /* ---------------- layout ---------------- */
+  .container-site { width: 100%; max-width: 1180px; margin-inline: auto; padding-inline: 16px; }
+  @media (min-width: 640px) { .container-site { padding-inline: 24px; } }
+  .section { padding-block: 56px; }
+  @media (min-width: 1024px) { .section { padding-block: 96px; } }
+
+  .card {
+    background: var(--c-surface);
+    border: 1px solid color-mix(in oklab, var(--c-border) 70%, transparent);
+    border-radius: var(--radius-card);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 0.04), 0 12px 32px -18px rgb(0 0 0 / 0.18);
+  }
+  [data-theme="dark"] .card { box-shadow: 0 1px 0 rgb(255 255 255 / 0.03) inset, 0 16px 40px -24px rgb(0 0 0 / 0.8); }
+  /* Interactive card: lifts a little on hover */
+  .card-hover { transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease; }
+  .card-hover:hover { transform: translateY(-3px); border-color: color-mix(in oklab, var(--c-primary) 35%, var(--c-border)); }
+  .img-zoom img { transition: transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1); }
+  .img-zoom:hover img { transform: scale(1.05); }
+
+  /* ---------------- buttons: 40px tall, 14px ---------------- */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 40px;
+    padding: 0 18px;
+    border-radius: var(--radius-btn);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    white-space: nowrap;
+    transition: background-color 0.18s, border-color 0.18s, color 0.18s, transform 0.18s, box-shadow 0.18s;
+    cursor: pointer;
+    position: relative;
+  }
+  .btn:active { transform: scale(0.98); }
+  .btn:disabled { opacity: 0.55; cursor: not-allowed; }
+  .btn svg { width: 18px; height: 18px; flex-shrink: 0; }
+  .btn-primary { background: var(--c-primary); color: var(--c-on-primary); box-shadow: 0 6px 18px -8px color-mix(in oklab, var(--c-primary) 70%, transparent); }
+  .btn-primary:hover { background: var(--c-primary-strong); }
+  .btn-secondary { background: var(--c-surface); color: var(--c-text); border: 1px solid var(--c-border); }
+  .btn-secondary:hover { border-color: var(--c-primary); color: var(--c-primary); }
+  .btn-glass { background: rgb(255 255 255 / 0.12); color: #fff; border: 1px solid rgb(255 255 255 / 0.35); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+  .btn-glass:hover { background: rgb(255 255 255 / 0.22); }
+  .btn-light { background: #fff; color: #1a1112; }
+  .btn-light:hover { background: rgb(255 255 255 / 0.88); }
+  .btn-ghost { color: var(--c-primary); padding-inline: 10px; }
+  .btn-ghost:hover { background: var(--color-tint); }
+  .btn-sm { height: 36px; padding: 0 13px; font-size: 13px; }
+  /* 36px visible, 40px tap area */
+  .btn-sm::after { content: ""; position: absolute; inset: -2px 0; }
+  .btn-icon { width: 40px; padding: 0; }
+  .btn-icon.btn-sm { width: 36px; }
+  .btn-danger { background: #b42318; color: #fff; }
+
+  /* Pill chips (menu tabs, filters) */
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 36px;
+    padding: 0 15px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 650;
+    white-space: nowrap;
+    border: 1px solid var(--c-border);
+    background: var(--c-surface);
+    color: var(--c-text);
+    position: relative;
+    transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+  }
+  .chip:hover { border-color: color-mix(in oklab, var(--c-primary) 50%, var(--c-border)); }
+  .chip::after { content: ""; position: absolute; inset: -2px 0; }
+  .chip[aria-pressed="true"], .chip[aria-selected="true"] { background: var(--c-text); border-color: var(--c-text); color: var(--c-bg); }
+  .chip svg { width: 16px; height: 16px; }
+
+  /* Form fields */
+  .field {
+    width: 100%;
+    height: 44px;
+    padding: 0 14px;
+    border-radius: var(--radius-btn);
+    border: 1px solid var(--c-border);
+    background: var(--c-surface);
+    font-size: 15px;
+    color: var(--c-text);
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .field::placeholder { color: color-mix(in oklab, var(--c-muted) 80%, transparent); }
+  textarea.field { height: auto; min-height: 96px; padding: 11px 14px; line-height: 1.5; }
+  .field:focus { outline: none; border-color: var(--c-primary); box-shadow: 0 0 0 3px color-mix(in oklab, var(--c-primary) 22%, transparent); }
+  .label { display: block; font-size: 13px; font-weight: 650; margin-bottom: 6px; color: var(--c-text); }
+
+  /* Glass surfaces (sticky header, floating bars) */
+  .glass {
+    background: color-mix(in oklab, var(--c-surface) 82%, transparent);
+    backdrop-filter: saturate(1.6) blur(14px);
+    -webkit-backdrop-filter: saturate(1.6) blur(14px);
+  }
+
+  .divider-oval { display: flex; align-items: center; gap: 10px; color: var(--c-border); }
+  .divider-oval::before, .divider-oval::after { content: ""; height: 1px; flex: 1; background: currentColor; }
+  .divider-oval > span { width: 18px; height: 11px; border-radius: 50%; background: var(--c-primary); }
+}
+
+/* Scroll reveal: elements with [data-reveal] fade up when they enter the screen.
+   Only after JS is ready (html.reveal) and never with reduced motion. */
+@media (prefers-reduced-motion: no-preference) {
+  html.reveal [data-reveal]:not(.is-in) { opacity: 0; transform: translateY(18px); }
+  html.reveal [data-reveal] { transition: opacity 0.7s cubic-bezier(0.2, 0.7, 0.2, 1), transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1); }
+}
+
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+html[lang="am"] body { line-height: 1.7; }
+
+/*
+ * Performance: the Noto Sans Ethiopic web font (~190 KB) is only used when the
+ * site is in Amharic. In English mode the few Amharic words (dish subtitles)
+ * use the phone's built-in Ethiopic font, so English visitors don't download it.
+ */
+html:not([lang="am"]) {
+  --font-ethiopic: "Kefa", "Nyala", "Ebrima", "Abyssinica SIL";
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+dialog::backdrop { background: rgb(0 0 0 / 0.72); backdrop-filter: blur(4px); }
+
+/* Printing (QR codes page): hide admin chrome */
+@media print {
+  aside, header, nav { display: none !important; }
+  body { background: #fff; }
+  main { padding: 0 !important; max-width: none !important; }
+  .lg\:pl-\[var\(--admin-sidebar\,256px\)\] { padding-left: 0 !important; }
+}
+
+/* Dark mode for the few fixed "notice" colors (amber = needs review, green = fasting/success). */
+[data-theme="dark"] .bg-amber-50 { background-color: rgb(245 158 11 / 0.12); }
+[data-theme="dark"] .bg-amber-100 { background-color: rgb(245 158 11 / 0.2); }
+[data-theme="dark"] .text-amber-900,
+[data-theme="dark"] .text-amber-950 { color: #fcd34d; }
+[data-theme="dark"] .border-amber-300 { border-color: rgb(245 158 11 / 0.35); }
+[data-theme="dark"] .bg-green-50 { background-color: rgb(34 197 94 / 0.12); }
+[data-theme="dark"] .text-green-900 { color: #86efac; }
+[data-theme="dark"] .text-green-700 { color: #4ade80; }
+[data-theme="dark"] .text-\[\#b42318\] { color: #ff8a80; }
