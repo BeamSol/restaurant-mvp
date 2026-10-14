@@ -7,7 +7,6 @@ import Booking from "@/components/site/Booking";
 import Branches from "@/components/site/Branches";
 import PhotoFeature from "@/components/site/PhotoFeature";
 import About from "@/components/site/About";
-import Gallery from "@/components/site/Gallery";
 import Reviews from "@/components/site/Reviews";
 
 export default async function HomePage() {
@@ -28,7 +27,6 @@ export default async function HomePage() {
       <Branches branches={data.branches} closures={data.closures} timeZone={settings.timezone} />
       <PhotoFeature settings={settings} branches={data.branches} />
       <About settings={settings} />
-      {f.gallery !== false && <Gallery images={data.gallery} />}
       {f.reviews !== false && <Reviews reviews={data.testimonials} />}
     </main>
   );

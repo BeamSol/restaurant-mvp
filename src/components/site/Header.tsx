@@ -46,7 +46,6 @@ export default function Header({ settings, announcement }: { settings: Settings;
     ...(f.events !== false ? [{ href: "/#events", key: "nav.events" }] : []),
     { href: "/#branches", key: "nav.branches" },
     ...(f.catering !== false ? [{ href: "/#catering", key: "nav.catering" }] : []),
-    ...(f.gallery !== false ? [{ href: "/#gallery", key: "nav.gallery" }] : []),
   ];
   const bookHref = f.booking !== false ? "/#book" : settings.contact.phones?.[0] ? `tel:${settings.contact.phones[0].replace(/\s/g, "")}` : "/#branches";
 

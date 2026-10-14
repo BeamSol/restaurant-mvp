@@ -28,7 +28,6 @@ export default function Footer({ settings, branches }: { settings: Settings; bra
     ...(f.events !== false ? [{ href: "/#events", label: t("nav.events") }] : []),
     { href: "/#branches", label: t("footer2.allBranches") },
     ...(f.catering !== false ? [{ href: "/#catering", label: t("nav.catering") }] : []),
-    ...(f.gallery !== false ? [{ href: "/#gallery", label: t("nav.gallery") }] : []),
   ];
   const col = "text-[12px] font-extrabold tracking-[0.14em] uppercase text-on-band/50 mb-4";
 
